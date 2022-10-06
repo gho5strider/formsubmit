@@ -1,0 +1,607 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color:#ebedeb;
+}
+
+.home{
+	font-family: sans-serif;
+	text-align: left;
+	font-family: 'Cormorant Garamond', serif;
+	color: #121211;
+	font-size:50px;
+}
+
+
+h1{
+	color:blue;
+	font-family: sans-serif;
+	text-align: left;
+	font-family: 'Cormorant Garamond', serif;
+	color: #121211;
+	font-size: 50px;
+}
+
+.img_header{
+	font-size: 40px;
+}
+
+.filler{
+	padding-top:40px;
+}
+
+nav{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	background-color: #f2bf9b;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+nav a:hover{
+	color: white;
+}
+
+nav ul {
+	float: left;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #f2bf9b;
+	border-radius: 4px;
+
+}
+
+nav ul li:hover ul{
+	display: block;
+	transition: ease-in 0.3s;
+}
+
+
+nav ul li ul li {
+	width: 250px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li ul li a:hover{
+	cursor: pointer;
+}
+
+nav ul li a{
+	display: block;
+	font-size: 24px;
+	padding: 20px 12px;
+}
+
+
+
+
+
+p{
+	color:red;
+	padding-top:5px;
+	font-family: 'Neuton', serif;
+	color: #161717;
+	font-size:30px;
+}
+
+
+.nav-links{
+	display:flex;
+	justify-content: space-around;
+	width:35%;
+}
+
+.nav-links{
+	list-style:none;
+}
+
+.nav-links a{
+	color: black;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size:16px;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+
+.nav-links a:hover{
+
+}
+
+.logo{
+	font-family: 'Gentium Book Plus', serif;
+	text-decoration: none;
+	position: relative;
+	font-size: 30px;
+	justify-content: space-around;
+}
+
+.logo_{
+	text-decoration: none;
+	color: black;
+}
+
+.logo:hover{
+	cursor: pointer;
+}
+
+.bgimg{
+  	background-image: url("spool.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#header{
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 230px;
+  right: 400px;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 2px;
+  font-size: 65px;
+  color: #fffefc;
+
+}
+
+.filler{
+	padding-top: 75px;
+}
+
+
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.content_1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.content_2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.title{
+	text-align: center;
+
+}
+
+ul{
+	list-style: none;
+}
+
+/* padding starts here*/
+
+.pad_1{
+	padding-top: 100px;
+}
+
+.pad_2{
+	padding-top: 90px;
+}
+
+.pad_3{
+	padding-top:20px;
+}
+
+.pad{
+	padding-top: 150px;
+}
+
+.padding_bottom{
+	padding-bottom: 200px;
+}
+
+/*padding ends here */
+
+/*images start*/
+
+
+#img_0{
+	width: 300px;
+	height: 300px;
+	padding-top: 50px;
+	float: left;
+	padding-right: 20px;
+}
+
+#img_1{
+	width: 400px;
+	height: 296px;
+	padding-top: 50px;
+	float: right;
+	padding-left: 20px;
+}
+
+#img_2{
+	width: 250px;
+	height: 400px;
+	padding-top: 50px;
+	float: right;
+	padding-right: 20px;
+}
+
+#img_3{
+	width: 250px;
+	height: 400px;
+	padding-top: 50px;
+	float: right;
+	padding-right: 20px;
+}
+
+#img_4{
+	width: 250px;
+	height: 400px;
+	padding-top: 50px;
+	float: left;
+	padding-right: 20px;
+}
+
+.float_right{
+	clear: right;
+}
+
+.float_left{
+	clear:left;
+}
+/*images end*/
+
+
+/*bottom_nav styles start here*/
+.bottom{
+	min-height:15vh;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	background-color: #f2bf9b;
+	font-family: 'Cormorant Garamond', serif;
+	align-items: vertical;
+}
+
+
+.bottom_nav-links{
+	display:block;
+	justify-content: space-around;
+	width: 72%;
+	padding-bottom: 20px;
+	list-style:none;
+	min-height:33vh;
+	align-items: normal;
+}
+
+
+
+
+
+.bottom{
+	list-style:none;
+	text-align: left;
+}
+
+.bottom a{
+	color: black;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size:22px;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+
+.bottom a:hover{
+	color: white;
+
+}
+
+.li{
+	padding-top: 40px;
+}
+
+.li_1{
+	display: flex;
+	padding-top: 25px;
+}
+
+.li_2{
+	padding-top:25px;
+}
+
+
+#bottom{
+	display:flex;
+	justify-content: space-around;
+	align-items: left;
+	min-height: 20vh;
+	background-color: #f2bf9b;
+	font-family: 'Cormorant Garamond', serif;
+
+}
+
+.padding{
+	padding: 10px;
+}
+
+.product_title{
+	padding-top: 15px;
+	font-size: 25px;
+	font-family: 'Gentium Book Plus', serif;
+}
+
+.price{
+	font-size: 24px
+}
+
+.price_2{
+	padding:0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*bottom_nav styles ends here*/
+
+
+
+.description{
+	font-size: 20px;
+}
+
+.btn{
+    width: 150px;
+		height: 40px;
+		border: none;
+		color: white;
+		background-color: 	#f2bf9b;
+		border-radius: 4px;
+		box-shadow: inset 0 0 0 0 #f9e506;
+		font-size: 25px;
+		outline: none;
+		font-family: 'Luxurious Roman', cursive;
+		cursor: pointer;
+		transition: all 0.75s ease-out;
+}
+
+.btn:hover{
+	color:black;
+	transition: all 0.35s ease-in;
+}
+
+.wine{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Luxurious Roman', cursive;
+}
+
+.wine_img{
+	height: 500px;
+}
+
+.towel_img{
+	height: 350px;
+}
+
+.earring_img{
+	height: 300px;
+}
+
+.pillow_img{
+	height: 300px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-color:#cccac4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#link_left{
+	font-size: 25px;
+	float:left;
+}
+
+#link_right{
+	font-size: 25px;
+	float:right;
+}
+
+.form{
+	font-family: 'PT Serif', serif;
+	font-size:25px;
+}
+
+.form-group{
+	margin-top:1.3em;
+}
+
+.form-label{
+	font-size:.75em;
+	color: #1e1e1f;
+	display:block;
+}
+
+
+.form-control{
+	box-shadow: none;
+	border-radius:0;
+	border-color: #ccc;
+	border-style: none none solid none;
+	width: 100%;
+}
+
+.form-control::placeholder{
+	color:#c3c4c7;
+	font-family: 'PT Serif', serif;
+	opacity:1;
+}
+
+.form-control:focus{
+	box-shadow:none;
+	outline:none;
+	border-color:#c49460;
+}
+
+
+@media screen and (max-width: 1200px){
+
+
+.nav-links{
+	display:flex;
+	justify-content: space-around;
+	width: 50%;
+}
+
+
+.content{
+	width: 96%;
+}
+
+.content_1{
+	width: 96%;
+}
+
+.content_2{
+	width: 96%;
+}
+
+
+	#header{
+	  position: absolute;
+	  z-index: 1000;
+	  top: 200px;
+	  left: 100px;
+	  right: 150px;
+	  letter-spacing: 2px;
+	  font-size: 45px;
+	}
+
+	.bottom_nav-links{
+		width: 100%
+	}
+
+	#img_1{
+		width: 300px;
+		height: 222px;
+	}
+
+	.description{
+		font-size: 20px;
+	}
+
+	.btn{
+	    width: 120px;
+			height: 35px;
+			font-size: 19px;
+		}
+
+		.column_1 {
+		  float: left;
+		  width: 33.3%;
+		  padding: 20px;
+		}
+
+		.column_2 {
+		  float: left;
+		  width: 33.2%;
+		  padding: 20px;
+		}
+
+		.wine_img{
+			height:430px;
+		}
+
+		.earring_img{
+			height: 250px;
+		}
+
+		.pillow_img{
+			height: 230px;
+		}
+
+		.towel_img{
+			height: 500px;
+			width: px;
+		}
+
+		.price{
+			font-size: 22px;
+		}
+
+}
+
+
+@media screen and (max-width: 600px){
+	#header{
+	position: absolute;
+	z-index: 1000;
+	top: 150px;
+	left: 50px;
+	right: 50px;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+.nav-links{
+	width:100%;
+}
+
+.column_2 {
+	width: 49%;
+	padding: 10px;
+}
+
+.wine_img{
+	height:800px;
+}
+
+.content_1{
+	width: 65%;
+}
+
+}
